@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Interactive rating component</title>
+</head>
+
+<body>
+    <form>
+        <section id="rate-container" class="rate-form"><img src="img\icon-star.svg" alt="star icon" class="star-icon">
+            <h1 class="title">How did we do?</h1>
+            <p id="text" class="text">Please let us know how we did with your support request. All feedback id
+                appreciated
+                to help us
+                improve our offering!</p>
+            <div class="rates">
+                <button class="btn" type="button" value="1">1</button>
+                <button class="btn" type="button" value="2">2</button>
+                <button class="btn" type="button" value="3">3</button>
+                <button class="btn" type="button" value="4">4</button>
+                <button class="btn" type="button" value="5">5</button>
+            </div>
+            <button type="submit" id="submit-btn">Submit</button>
+        </section>
+        <section id="end-container" class="bye hidden">
+            <img src="img\illustration-thank-you.svg" alt="thank you" class="thank">
+            <div class="text-container">
+                <p id="result"></p>
+            </div>
+            <h1>Thank you!</h1>
+            <p class="text"> We appreciate you taking the time to give a rating. If you ever need more support, don't
+                hesitate to get in touch!</p>
+            </p>
+        </section>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
